@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.next/
+src/index.css
+**/index.css

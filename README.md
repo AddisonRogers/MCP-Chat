@@ -38,7 +38,7 @@ The application will be available at `http://localhost:5173`
 
 - `npm run dev` - Start the development server with hot reload
 - `npm run build` - Build the application for production
-- `npm run lint` - Run ESLint to check code quality
+- `npm run lint` - Run Biome to check code quality and format
 - `npm run preview` - Preview the production build locally
 
 ## 🛠 Tech Stack
@@ -67,8 +67,7 @@ The application will be available at `http://localhost:5173`
 - **Rehype Highlight** (v7.0.2) - Syntax highlighting
 
 ### Development Tools
-- **ESLint** (v9.36.0) - Code linting
-- **TypeScript ESLint** - TypeScript-specific linting rules
+- **Biome** (v2.4.4) - Fast all-in-one toolchain for web projects
 - **Vite Plugin React SWC** - Fast React refresh
 
 ## 📁 Project Structure
@@ -96,11 +95,10 @@ src/
 - Tailwind CSS integration
 - Path aliasing (`@` → `src/`)
 
-### ESLint Configuration
+### Biome Configuration
+- Fast linting and formatting
 - TypeScript support
-- React Hooks rules
-- React Refresh plugin
-- Recommended configurations from ESLint and TypeScript ESLint
+- JSX/React support
 
 ### Tailwind CSS
 - Configured with shadcn/ui compatibility
@@ -147,10 +145,8 @@ npm run preview
 ## 📝 Code Quality
 
 The project maintains code quality through:
-- **ESLint** for code linting
+- **Biome** for code linting and formatting
 - **TypeScript** for type safety
-- **React Hooks** linting rules
-- **Consistent code formatting**
 
 Run linting:
 ```shell script

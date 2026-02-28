@@ -1,4 +1,4 @@
 ﻿export type LLMMessage = {
-    sender: string;
-    text: string;
+  sender: string;
+  text: string;
 };
