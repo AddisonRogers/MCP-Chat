@@ -30,7 +30,7 @@ export default defineConfig({
       plugins: [
         // Add plugins if needed, but playwright-ct usually picks up vite.config.ts
       ],
-    }
+    },
   },
 
   /* Configure projects for major browsers */
